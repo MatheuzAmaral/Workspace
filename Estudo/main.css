@@ -1,0 +1,32 @@
+body {
+    background-color: black
+    
+}
+
+h1 {
+color: white;
+background-color: #DB7093 ;
+font-size: 70px;
+justify-content: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+margin-top: 0px;
+}
+
+h2 {
+    background-color: #FFB6C1;
+    text-align: center;
+    margin-top: -30px;
+}
+
+li {
+    color: #FFB6C1;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    opacity: 90px;
+    background: black;
+    background: opacity 90;
+    
+}
