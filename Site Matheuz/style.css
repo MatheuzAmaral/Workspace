@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+
+body {
+    
+    font-size: 15px;
+    }
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.content-background {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content-form {
+    background: #000100;
+    display: flex;
+    flex: 1;
+}
+
