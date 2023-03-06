@@ -19,6 +19,7 @@
     --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
 }
 
+
 /* General */
 * {
     font-family: 'Poppins', sans-serif;
@@ -185,4 +186,5 @@
     100.0% {
         background-color:var(--color-dark-100); 
     }
+   
 }
