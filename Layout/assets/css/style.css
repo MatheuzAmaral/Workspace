@@ -6,9 +6,9 @@
 }
 
 body {
-    
     font-size: 15px;
-    }
+
+}
 
 .container {
     display: flex;
@@ -20,12 +20,15 @@ body {
     background: black;
     display: flex;
     flex-direction: column;
+
     flex: 1;
 }
 
 .content-form {
     background: #000100;
     display: flex;
+    flex-direction: column;
+
     flex: 1;
 }
 

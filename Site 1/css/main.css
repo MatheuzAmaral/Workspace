@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    background-color: #212529;
+}
+.container{
+    max-width: 1261px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 53px;
+    color: #8d8d8d;
+    text-shadow: 0px 0px 10px #020202, 0px 0px 3px #050200;
+}
+.titulo{
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    text-transform: uppercase;
+    color: #f07816ab;
+    text-shadow: 0px 0px 10px #fd7e14, 0px 0px 3px #fd7e14;
+    letter-spacing: 3px;
+    
+}
+p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+.btn-primary{
+    width: 120px;
+    height: 44px;
+    border-radius: 7px;
+    background-color: #212529;
+    color: #fd7d14e3;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    border-color: #fd7d14ef;
+    border-style:solid;
+    border-width:thin;
+    cursor: pointer;
+    box-shadow: 0px 0px 35px #fd7d14ad,0px 0px 15px #fd7d14c7 inset;
+    margin-top: 30px;
+}
+.btn-primary:hover{
+    background-color:#fd7e14;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px #fd7e14, 0px 0px 3px #fd7e14;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-left: 80px;
+    margin-right: auto;
+}
+header .container nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    
+}
+header .container ul li{
+    margin-left: 26px;
+}
+header .container ul li a{
+    background-color:#212529;
+    color: #8d8d8d;
+   
+}
+header .container ul li a:hover{
+    background-color: #212529;
+    color: #fd7d14e3;
+    cursor: pointer;
+    max-width: 375px;
+}
+.hero .container .text h1,p{
+    font-size: 25px;
+    max-width: 376px;
+    word-wrap:break-word;
+    color: #8d8d8d;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.hero{
+    width: 620px;
+    align-items: center;
+    display: flex;
+}
+
+.hero .container .text span{
+    color: #f07816ab; 
+    text-shadow: 0px 0px 10px #0f0f0e, 0px 0px 3px #000000;
+}
+.hero ,man {
+    justify-content: space-between;
+    
+}
