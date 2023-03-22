@@ -112,6 +112,11 @@ body * {
     
 }
 
+.btn-login:hover{
+    background: #518d71;
+    color: #2b134b;
+}
+
 @media only screen and (max-width:950px){
     .card-login{
         width: 85%;
